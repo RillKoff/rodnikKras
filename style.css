@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+.login_wrapper {
+    min-height: 100vh;
+    background: url(img/login.png), linear-gradient(#2c341d, #2c341d);
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_form {
+    width: 90%;
+    background-color: #fff;
+    border-radius: 18px;
+    padding: 25px 35px 35px 35px;
+}
+
+.login_form form {
+    display: flex;
+    flex-direction: column;
+    row-gap: 16px;
+}
+
+.login_form h2 {
+    font-weight: bold;
+    font-style: 16px;
+    text-align: center;
+    margin-bottom: 18px;
+}
+
+.login_form input {
+    position: relative;
+    border: 2px solid #5E663F;
+    border-radius: 14px;
+    padding: 11px;
+    padding-left: 56px;
+    margin-bottom: 19px;
+    width: 100%;
+    background: transparent;
+    
+}
+
+.login_form div:nth-of-type(1)::before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url(img/phone.png);
+    background-size: cover;
+    left: 18px;
+    top: 10px;
+}
+
+.login_form div:nth-of-type(2)::before {
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    background: url(img/lock.png);
+    background-size: cover;
+    left: 18px;
+    top: 10px;
+}
+
+.login_form div {
+    position: relative;
+}
+
+.login_form button {
+    background: #5E663F;
+    border-radius: 14px;
+    color: #DCDDCB;
+    font-size: 14px;
+    width: 100%;
+    padding: 11px 0;
+    border: none;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.login_form p {
+    font-size: 16px;
+    color: #000;
+}
