@@ -5,9 +5,14 @@
     text-decoration: none;
     font-family: 'Inter', sans-serif;
     box-sizing: border-box;
+    color: #000;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+input {
+    color: #fff;
+}
 
 .login_wrapper {
     min-height: 100vh;
