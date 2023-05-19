@@ -4,7 +4,42 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <title>Добро пожаловать!</title>
   </head>
-  <body></body>
+  <body>
+    <div class="main_wrapper">
+      <div class="main">
+        <h2>Добро пожаловать!</h2>
+        <p>Всего в очереди N человек, набирают M литров воды.</p>
+        <p>Пользователи сообщают, что на роднике сейчас N человек.</p>
+        <div class="button_im_here">
+          <p>Я на роднике!</p>
+          <div class="button_im_here_form">
+            <p>У меня</p>
+            <input type="text" />
+            <p>литров воды</p>
+          </div>
+          <div class="button_main_send button_im_here_send">
+            <p>Отправить</p>
+          </div>
+        </div>
+        <p>
+          Если на сайте указано неправильное количество людей, пожалуйста
+          нажмите на кнопку ниже и укажите верное число (включая Вас)
+        </p>
+        <div class="button_another_number">
+          <p class="button_another_number_close">Неверное количество</p>
+          <p class="button_another_number_open">
+            Пожалуйста, укажите верно количество людей ниже.
+          </p>
+          <div class="button_another_number_btn"><input type="text" /></div>
+          <div class="button_main_send button_another_number_send">
+            <p>Отправить</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
 </html>
